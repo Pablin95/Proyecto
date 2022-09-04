@@ -152,6 +152,25 @@ Etiquetas Incorrectas
 ![imagen](https://user-images.githubusercontent.com/111188486/188330624-72feda2e-24e6-433d-89be-031adc56f2a3.png)
 
 
+     # PUNTOS ADICIONALES
+     
+Para poder realizar las dimensiones de una imagen, cambio de color, detección de bordes, eliminación de ruido y suavizar contornos se utilizó una imagen del dataset proporcionado.
+ 
+#Cambio de color en la imagen 
+
+ 1) Cargamos la imagen que vamos a utilizar e importamos las librerias (Matplolib, io, numpy)
+ ![image](https://user-images.githubusercontent.com/111256602/188335064-44f883ec-2355-44a6-b4bf-130fed521e0f.png)
+
+2) Realizamos el cambio de color de la imagen utilizando la librería numpy y una vez colocado en el arreglo se coloca la opción en gris y rojo.
+
+![image](https://user-images.githubusercontent.com/111256602/188335164-a3c2262d-db79-478b-b0a0-9a0cec0d54dd.png)
+
+![image](https://user-images.githubusercontent.com/111256602/188335196-01c20894-753c-4f49-a294-215417835dfe.png)
+
+
+
+
+
 ## Conclusiones y resultados 🎁
 _En este post hemos visto lo fácil que resulta crear un clasificador de imágenes en tensorflow-keras a través de un ejemplo sencillo. Espero que esto pueda ayudar a “desmitificar” las redes neuronales y las técnicas de visión artificial. Hemos visto tanto cómo construir un modelo propio desde cero, o simplemente usar uno de los disponibles en tf.keras. Por supuesto, si quisiéramos mejorar el rendimiento, o estuviésemos trabajando con un dataset “real” más complejo, hay montones de técnicas más complejas que podemos hacer, pero incluso de esta forma tan sencilla hemos construido un modelo que obtiene resultados aceptables para la mayoría de aplicaciones._
 
