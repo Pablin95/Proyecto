@@ -156,7 +156,7 @@ Etiquetas Incorrectas
      
 Para poder realizar las dimensiones de una imagen, cambio de color, detección de bordes, eliminación de ruido y suavizar contornos se utilizó una imagen del dataset proporcionado.
  
-#Cambio de color en la imagen 
+_Cambio de color en la imagen_ 
 
  1) Cargamos la imagen que vamos a utilizar e importamos las librerias (Matplolib, io, numpy)
  ![image](https://user-images.githubusercontent.com/111256602/188335064-44f883ec-2355-44a6-b4bf-130fed521e0f.png)
@@ -168,7 +168,7 @@ Para poder realizar las dimensiones de una imagen, cambio de color, detección d
 ![image](https://user-images.githubusercontent.com/111256602/188335196-01c20894-753c-4f49-a294-215417835dfe.png)
 
 
-#Detección de bordes 
+_Detección de bordes_ 
 
 Se detectó la descontinuidad basado en la discontinuidad en el nivel de la intensidad de la imagen y para eso se utilizó la librería io/skimage y matplotlib.
 
@@ -176,6 +176,18 @@ Se aplicó los filtros: sobel, roberts, prewitt y se realizó un for para poder 
 
 ![image](https://user-images.githubusercontent.com/111256602/188335238-7c33335d-8b2d-40df-bdb5-a07343665aa2.png)
 
+_Eliminación de ruido_
+
+Se conoce que existen diferentes tipos de ruido que es producido por perturbaciones agudas y repentinas en las imagener y para poder reducirlo se sacó la media
+
+
+![image](https://user-images.githubusercontent.com/111256602/188335581-ea44def3-a073-44e7-a1a0-cb7836847b80.png)
+
+_Suavizar y resaltar contornos_
+
+Para poder detectar y suavizar los bordes se utilizó la función Canny() que está compuesta por tres etapas: La primera fue la reducción de ruido para tener una imagen suave y la segunda contiene los gradientes de intensidad de los pixeles.
+
+![image](https://user-images.githubusercontent.com/111256602/188335604-f38a6548-92f3-4b35-a4ff-5e891ff06964.png)
 
 
 ## Conclusiones y resultados 🎁
