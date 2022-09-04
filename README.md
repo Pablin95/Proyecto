@@ -168,6 +168,13 @@ Para poder realizar las dimensiones de una imagen, cambio de color, detección d
 ![image](https://user-images.githubusercontent.com/111256602/188335196-01c20894-753c-4f49-a294-215417835dfe.png)
 
 
+#Detección de bordes 
+
+Se detectó la descontinuidad basado en la discontinuidad en el nivel de la intensidad de la imagen y para eso se utilizó la librería io/skimage y matplotlib.
+
+Se aplicó los filtros: sobel, roberts, prewitt y se realizó un for para poder aplicar cada uno de los filtros.
+
+![image](https://user-images.githubusercontent.com/111256602/188335238-7c33335d-8b2d-40df-bdb5-a07343665aa2.png)
 
 
 
