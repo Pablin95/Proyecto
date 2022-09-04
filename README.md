@@ -102,7 +102,16 @@ _Creamos sets de Entrenamiento y Test, Validación y Preprocesar_
 ![imagen](https://user-images.githubusercontent.com/111188486/188061064-f330b17b-f9ca-4560-ac1a-d1ce89cdaa7c.png)
 
 _Creamos la red_
+Se realizara la red neuronal convuncional que es un tipo de red que permite procesar sus capas mediante un aprendizaje supervisado de tal forma que trata de imitar al cortex del ojo, es decir las capas pueden detectar lineas, curvas y la silueta o rostro para que una vez entrenado el algoritmo la red pueda captar las características únicas de cada objeto para finalmente poder reconocer a que grupo pertenece.
 
+
+1) Creamos la primera capa de neuronas en donde se registran las imágeners
+2) Se utilizará la función "LeakyLU()" para activar las neuronas
+3) Reduciremos la imagen para mantener las características únicas mediante "MaxPooling()"
+4) Se aplana con la función "Flatten()" y se crea una capa con "Dense()"
+5) Compilamos la red mediante "compile()" y se le asigna un optimizador Adagrad()
+
+![image](https://user-images.githubusercontent.com/111256602/188297518-5a43f543-ccdf-4205-9b12-9f6421c51d56.png)
 
 _Entrenamos la CNN_
 
