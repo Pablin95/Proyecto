@@ -1,20 +1,21 @@
-   # MAESTRIA DE CIBERSEGURIDAD
+   # MAESTRÍA DE CIBERSEGURIDAD
 
 ![imagen](https://user-images.githubusercontent.com/111188486/188062560-3202f0fe-b03d-416c-b3e0-d49583283d1d.png)
 
 # PROYECTO FINAL TRATAMIENTO DE DATOS
-# CLASIFICADOR DE IMAGENES
+# CLASIFICADOR DE IMÁGENES
                    
 # INTEGRANTES:
-- ### David Andres Romero Armas
+- ### David Andrés Romero Armas
 - ### Juan Pablo Rivera Piñaloza
 - ### Jose Ruben Mendoza Muñoz
 - ### Cynthya Escuntar Escobar
   
   
-     # CLASIFICADOR DE IMAGENES
+     # CLASIFICADOR DE IMáÁGENES
 
-El objetivo de esta proyecto es emplear los conocimientos de Tratamiento de Datos en procesos industriales. Para ello vamos a crear un clasificador de tipos de carnes, el cual es un ejemplo simplificado, que utiliza un modelo de procesamiento real con imágenes de mayor resolución y un conjunto de entrenamiento. Mediante el estudio de ciertas imagenes se llegará a tener un modelo predictivo de alta efectividad en la clasificación de las carnes.
+El objetivo de esta proyecto es emplear los conocimientos de Tratamiento de Datos en procesos industriales. Para ello vamos a crear un clasificador de tipos de carnes, el cual es un ejemplo simplificado, que utiliza un modelo de procesamiento real con imágenes de mayor resolución y un conjunto de entrenamiento.
+Mediante el estudio de ciertas imágenes se llegará a tener un modelo predictivo de alta efectividad en la clasificación de las carnes.
 
 ### Pre-requisitos 📋
 
@@ -38,7 +39,7 @@ Se debe tomar muy en cuenta instalar estos tres programas para su posterior uso 
 
 ### Instalación 🔧
 
-_Para realizar la instalación de estos programas se debe tomar en cuenta descargar las ultimas versiones para que no existen problemas en la realización de dicho proyecto._
+_Para realizar la instalación de estos programas se debe tomar en cuenta descargar las últimas versiones para que no existen problemas en la ejecución del proyecto._
 
 _Link instalación Anaconda_
 
@@ -83,7 +84,7 @@ _Resultados obtenidos_
 ![imagen](https://user-images.githubusercontent.com/111188486/188060717-5170ed07-38f7-4705-bfa0-5558db10a663.png)
 
 
-### Analice las pruebas end-to-end 🔩
+### Análisis de las pruebas end-to-end 🔩
 
 _Importar Librerías._
 
