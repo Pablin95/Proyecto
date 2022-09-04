@@ -9,7 +9,7 @@
 - ### David Andrés Romero Armas
 - ### Juan Pablo Rivera Piñaloza
 - ### Jose Ruben Mendoza Muñoz
-- ### Cynthya Escuntar Escobar
+- ### Cynthya Lisbeth Escuntar Escobar
   
   
      # CLASIFICADOR DE IMÁGENES
