@@ -9,7 +9,7 @@
 - ### David Andres Romero Armas
 - ### Juan Pablo Rivera Piñaloza
 - ### Jose Ruben Mendoza Muñoz
-- ### Cynthia Escuntar Escobar
+- ### Cynthya Escuntar Escobar
   
   
      # CLASIFICADOR DE IMAGENES
@@ -130,4 +130,8 @@ _Resultados obtenidos_
 ## Conclusiones y resultados 🎁
 _En este post hemos visto lo fácil que resulta crear un clasificador de imágenes en tensorflow-keras a través de un ejemplo sencillo. Espero que esto pueda ayudar a “desmitificar” las redes neuronales y las técnicas de visión artificial. Hemos visto tanto cómo construir un modelo propio desde cero, o simplemente usar uno de los disponibles en tf.keras. Por supuesto, si quisiéramos mejorar el rendimiento, o estuviésemos trabajando con un dataset “real” más complejo, hay montones de técnicas más complejas que podemos hacer, pero incluso de esta forma tan sencilla hemos construido un modelo que obtiene resultados aceptables para la mayoría de aplicaciones._
 
-  
+Hay que tener en cuenta que para poder ejecutar el clasificador de imagenes y poder utilizar sus diferentes funciones es necesario importar todas las librerias necesarias para su ejecución. Entre las principales tenemos las siguientes: keras, tensorflow numpy, matplotlib, os.
+
+Crear los sets de entrenamiento, test y validación nos permitirá tener una segregación en las imagenes y poder trabajar con ellas, mediante el uso de la función to_categorical() se convierten las clases para poder realizar la clasificación y generar la salida de la red neuronal.
+
+
