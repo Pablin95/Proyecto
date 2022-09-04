@@ -12,7 +12,7 @@
 - ### Cynthya Escuntar Escobar
   
   
-     # CLASIFICADOR DE IMáÁGENES
+     # CLASIFICADOR DE IMÁGENES
 
 El objetivo de esta proyecto es emplear los conocimientos de Tratamiento de Datos en procesos industriales. Para ello vamos a crear un clasificador de tipos de carnes, el cual es un ejemplo simplificado, que utiliza un modelo de procesamiento real con imágenes de mayor resolución y un conjunto de entrenamiento.
 Mediante el estudio de ciertas imágenes se llegará a tener un modelo predictivo de alta efectividad en la clasificación de las carnes.
