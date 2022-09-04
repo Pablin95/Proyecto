@@ -79,9 +79,21 @@ _Entrenamos la CNN_
 
 ![imagen](https://user-images.githubusercontent.com/111188486/188060650-5277aaf8-31d1-4c2c-bfd5-1cf0d495f366.png)
 
-_Resultados obtenidos_
+_Evaluamos la Red_
 
 ![imagen](https://user-images.githubusercontent.com/111188486/188060717-5170ed07-38f7-4705-bfa0-5558db10a663.png)
+
+![imagen](https://user-images.githubusercontent.com/111188486/188330363-0fb8b952-aa67-4470-9153-eb5474b9e0a2.png)
+
+![imagen](https://user-images.githubusercontent.com/111188486/188330420-bb75905e-08a9-4659-8b7a-f73408efb277.png)
+
+_Aprendemos de los errores_
+
+![imagen](https://user-images.githubusercontent.com/111188486/188330438-b4b3f49a-b2b6-4ac5-a9f7-1c76be54e3aa.png)
+
+![imagen](https://user-images.githubusercontent.com/111188486/188330460-29eb8748-dc71-4998-ab4a-fff6e5fd7383.png)
+
+![imagen](https://user-images.githubusercontent.com/111188486/188330516-9b4047cf-afa1-4c38-b84d-8060f8a5fdb5.png)
 
 
 ### Análisis de las pruebas end-to-end 🔩
@@ -119,13 +131,25 @@ _Entrenamos la CNN_
 
 Para entrenar a la red utilizaremos fit() que toma los datos de entremaniento como dos argumentos una entrada para los datos de muestra (X) y los valores de clasificación en el valor (Y).
 
-Finalmente, se guarda la red ya entrenada mediante la función save() en un formato de archivo h5py, lo que nos ayudará a poder reutilizarla.
+Se guarda la red ya entrenada mediante la función save() en un formato de archivo h5py, lo que nos ayudará a poder reutilizarla.
 
 ![image](https://user-images.githubusercontent.com/111256602/188298704-51fb9b0f-9d9a-4756-9382-5c8684d4edfb.png)
 
+_Evaluamos la Red_
 
+![imagen](https://user-images.githubusercontent.com/111188486/188330543-faa3efc6-4c48-498f-ae03-4c647fc7ac79.png)
 
-_Resultados obtenidos_
+_Aprendiendo de los errores_
+
+Etiquetas correctas
+
+![imagen](https://user-images.githubusercontent.com/111188486/188330579-f924bcdf-ccdb-448a-98c5-341913c6ebe8.png)
+
+Etiquetas Incorrectas
+
+![imagen](https://user-images.githubusercontent.com/111188486/188330585-24955da3-c8d4-41f8-a8a7-fe85d0e22e8d.png)
+
+![imagen](https://user-images.githubusercontent.com/111188486/188330624-72feda2e-24e6-433d-89be-031adc56f2a3.png)
 
 
 ## Conclusiones y resultados 🎁
