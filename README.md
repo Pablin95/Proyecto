@@ -102,6 +102,7 @@ _Creamos sets de Entrenamiento y Test, Validación y Preprocesar_
 ![imagen](https://user-images.githubusercontent.com/111188486/188061064-f330b17b-f9ca-4560-ac1a-d1ce89cdaa7c.png)
 
 _Creamos la red_
+
 Se realizara la red neuronal convuncional que es un tipo de red que permite procesar sus capas mediante un aprendizaje supervisado de tal forma que trata de imitar al cortex del ojo, es decir las capas pueden detectar lineas, curvas y la silueta o rostro para que una vez entrenado el algoritmo la red pueda captar las características únicas de cada objeto para finalmente poder reconocer a que grupo pertenece.
 
 
@@ -114,6 +115,13 @@ Se realizara la red neuronal convuncional que es un tipo de red que permite proc
 ![image](https://user-images.githubusercontent.com/111256602/188297518-5a43f543-ccdf-4205-9b12-9f6421c51d56.png)
 
 _Entrenamos la CNN_
+
+Para entrenar a la red utilizaremos fit() que toma los datos de entremaniento como dos argumentos una entrada para los datos de muestra (X) y los valores de clasificación en el valor (Y).
+
+Finalmente, se guarda la red ya entrenada mediante la función save() en un formato de archivo h5py, lo que nos ayudará a poder reutilizarla.
+
+![image](https://user-images.githubusercontent.com/111256602/188298704-51fb9b0f-9d9a-4756-9382-5c8684d4edfb.png)
+
 
 
 _Resultados obtenidos_
